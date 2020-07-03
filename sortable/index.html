@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <td>
+            姓名
+        </td>
+    </tr>
+    </thead>
+    <tbody id="sort">
+    <tr><td>mayuyu</td></tr>
+    <tr><td>youki</td></tr>
+    <tr><td>mio</td></tr>
+    </tbody>
+</table>
+</body>
+<script src="sortable.js"></script>
+<script>
+    var el = document.querySelector("#sort");
+    var sortable = Sortable.create(el, {
+        onEnd: function getId(evt) {
+           console.log(evt);
+        }
+    });
+</script>
+</html>

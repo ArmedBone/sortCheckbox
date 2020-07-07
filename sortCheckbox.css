@@ -1,0 +1,14 @@
+.sort-checkbox-wrapper>label{
+    margin:0 2px 2px;
+    display: inline-block;
+    background-color: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    color: #585858;
+    font-size: 13px;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+.sort-checkbox-wrapper>label>input[type='checkbox']{
+    vertical-align: text-bottom;
+    margin-right: 2px;
+}
